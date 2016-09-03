@@ -1,0 +1,147 @@
+<DATATYPE,'int'>
+prod 16
+<IDENTIFER,'a'>
+<DELIMITER,';'>
+prod 15
+prod 13
+prod 11
+prod 5
+prod 3
+<DATATYPE,'int'>
+prod 16
+<IDENTIFER,'hello'>
+<OPEN BRACKET,'('>
+<CLOSED BRACKET,')'>
+prod 9
+<OPEN BRACES,'{'>
+<DATATYPE,'int'>
+prod 16
+<IDENTIFER,'c'>
+<COMMA,','>
+prod 15
+prod 13
+<IDENTIFER,'d'>
+<COMMA,','>
+prod 15
+prod 12
+<IDENTIFER,'f'>
+<DELIMITER,';'>
+prod 15
+prod 12
+prod 11
+prod 30
+prod 20
+<IDENTIFER,'d'>
+<ASSIGN_OPERATOR,'='>
+<IDENTIFER,'f'>
+<DELIMITER,';'>
+prod 49
+prod 48
+prod 44
+prod 40
+prod 38
+prod 37
+prod 35
+prod 33
+prod 31
+prod 21
+prod 19
+<IDENTIFER,'f'>
+<ASSIGN_OPERATOR,'='>
+<IDENTIFER,'g'>
+<DELIMITER,';'>
+prod 49
+prod 48
+prod 44
+prod 40
+prod 38
+prod 37
+prod 35
+prod 33
+prod 31
+prod 21
+prod 19
+<CLOSED BRACES,'}'>
+prod 18
+prod 6
+prod 4
+prod 2
+Root ID: 77 (global_dec_list) -> 10, 76, 
+Root ID: 10 (global_dec_list) -> 9, 
+Root ID: 9 (decl_set) -> 7, 
+Root ID: 7 (variable_decl) -> 1, 6, 8, 
+Root ID: 1 (variable_dtype) -> 2, 
+Root ID: 2 (INT) -> NULL
+Root ID: 6 (variable_list) -> 3, 
+Root ID: 3 (variable) -> 4, 
+Root ID: 4 (ID) -> 5, 
+Root ID: 5 (a) -> NULL
+Root ID: 8 (DEL) -> NULL
+Root ID: 76 (decl_set) -> 70, 
+Root ID: 70 (function_definition) -> 13, 71, 73, 74, 75, 67, 
+Root ID: 13 (variable_dtype) -> 14, 
+Root ID: 14 (INT) -> NULL
+Root ID: 71 (ID) -> 72, 
+Root ID: 72 (g) -> NULL
+Root ID: 73 (OB) -> NULL
+Root ID: 74 (parameter_list) -> NULL
+Root ID: 75 (CB) -> NULL
+Root ID: 67 (statement_block) -> 68, 66, 69, 
+Root ID: 68 (OCB) -> NULL
+Root ID: 66 (statement_list) -> 49, 65, 
+Root ID: 49 (statement_list) -> 32, 48, 
+Root ID: 32 (statement_list) -> 31, 
+Root ID: 31 (statement) -> 29, 
+Root ID: 29 (variable_decl) -> 11, 27, 30, 
+Root ID: 11 (variable_dtype) -> 12, 
+Root ID: 12 (INT) -> NULL
+Root ID: 27 (variable_list) -> 22, 28, 24, 
+Root ID: 22 (variable_list) -> 18, 23, 19, 
+Root ID: 18 (variable_list) -> 15, 
+Root ID: 15 (variable) -> 16, 
+Root ID: 16 (ID) -> 17, 
+Root ID: 17 (c) -> NULL
+Root ID: 23 (COM) -> NULL
+Root ID: 19 (variable) -> 20, 
+Root ID: 20 (ID) -> 21, 
+Root ID: 21 (d) -> NULL
+Root ID: 28 (COM) -> NULL
+Root ID: 24 (variable) -> 25, 
+Root ID: 25 (ID) -> 26, 
+Root ID: 26 (f) -> NULL
+Root ID: 30 (DEL) -> NULL
+Root ID: 48 (statement) -> 43, 
+Root ID: 43 (assignment_statement) -> 44, 46, 42, 47, 
+Root ID: 44 (ID) -> 45, 
+Root ID: 45 (f) -> NULL
+Root ID: 46 (ASSIGN) -> NULL
+Root ID: 42 (logical_expression) -> 41, 
+Root ID: 41 (and_expression) -> 40, 
+Root ID: 40 (unary_expression) -> 39, 
+Root ID: 39 (relational_expression) -> 38, 
+Root ID: 38 (sum_expression) -> 37, 
+Root ID: 37 (term) -> 36, 
+Root ID: 36 (unary_expr) -> 33, 
+Root ID: 33 (factor) -> 34, 
+Root ID: 34 (ID) -> 35, 
+Root ID: 35 (f) -> NULL
+Root ID: 47 (DEL) -> NULL
+Root ID: 65 (statement) -> 60, 
+Root ID: 60 (assignment_statement) -> 61, 63, 59, 64, 
+Root ID: 61 (ID) -> 62, 
+Root ID: 62 (g) -> NULL
+Root ID: 63 (ASSIGN) -> NULL
+Root ID: 59 (logical_expression) -> 58, 
+Root ID: 58 (and_expression) -> 57, 
+Root ID: 57 (unary_expression) -> 56, 
+Root ID: 56 (relational_expression) -> 55, 
+Root ID: 55 (sum_expression) -> 54, 
+Root ID: 54 (term) -> 53, 
+Root ID: 53 (unary_expr) -> 50, 
+Root ID: 50 (factor) -> 51, 
+Root ID: 51 (ID) -> 52, 
+Root ID: 52 (g) -> NULL
+Root ID: 64 (DEL) -> NULL
+Root ID: 69 (CCB) -> NULL
+
+Parsing complete

@@ -1,0 +1,41 @@
+<DATATYPE,'int'>
+prod 16
+<IDENTIFER,'a'>
+<DELIMITER,';'>
+prod 15
+prod 13
+prod 11
+prod 5
+prod 3
+<DATATYPE,'int'>
+prod 16
+<IDENTIFER,'hello'>
+<OPEN BRACKET,'('>
+<CLOSED BRACKET,')'>
+prod 9
+<OPEN BRACES,'{'>
+<KEYWORD,'void'>
+3
+3
+<IDENTIFER,'c'>
+3
+<DELIMITER,';'>
+3
+<IDENTIFER,'d'>
+3
+<ASSIGN_OPERATOR,'='>
+3
+<IDENTIFER,'f'>
+3
+<IDENTIFER,'f'>
+3
+<ASSIGN_OPERATOR,'='>
+3
+<IDENTIFER,'g'>
+3
+<DELIMITER,';'>
+3
+<CLOSED BRACES,'}'>
+3
+
+Parsing failed

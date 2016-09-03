@@ -1,0 +1,19 @@
+Label0:
+	MOV BX, 0330h
+	MOV AH, [BX]
+	MOV BX, 0334h
+	ADD AL, [BX]
+	CMP AH, AL
+	JGE Label1
+	MOV BX, 0330h
+	MOV AH, [BX]
+	MOV BX, 0340h
+	ADD AL, [BX]
+	SUB AH, AL
+	MOV BX, 0330h
+	MOV [BX], AH
+Label1:
+	MOV AH, b
+	MOV AL, c
+	MUL AH, AL
+	MOV c, AH

@@ -1,0 +1,18 @@
+BEGIN
+Label Label0:
+    t0 = a
+    t1 = b
+    t2 = c
+    t1 += t2
+    t0 = t0 < t1
+IFZ t0 GOTO Label1
+    t0 = a
+    t1 = c
+    t0 -= t1
+    a = t0
+Label Label1:
+    t0 = b
+    t1 = c
+    t0 *= t1
+    c = t0
+END

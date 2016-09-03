@@ -1,0 +1,4 @@
+begin
+if (a < b + c) then a = a - c; 
+c = b * c;
+end

@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include "code_gen.c"
+int number =0;
+main ()
+{
+	number = 0;
+	begin ();
+}

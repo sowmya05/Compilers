@@ -1,0 +1,49 @@
+definition_list -> definition_list definition | є
+definition -> variable_definition | function_definition
+variable_definition -> datatype identifier_list;
+function_defintiion -> function_datatype id(parameter_list) opt_stmts
+identifier_list -> identifier_list,var | var
+var -> assign_stmt | id
+parameter_list -> parameter list,datatype id| datatype id
+datatype -> int|bool
+function_datetype -> void|int|bool
+opt_stms -> {stmt_list}|stmt_list|є
+stmt_list -> stmt_list; stmt; | stmt;
+stmt -> conditional_stmt|loop_stmt|break_stmt|continue_stmt|f_call_stmt|return_stmt|assign_stmt|input_stmt|output_stmt
+conditional_stmt->if_stmt|switch_stmt
+if_stmt->mif|uif
+mif->if (expr) mif else mif | opt_stms
+uif->if (expr) mif|if (expr) mif else uif
+switch_stmt-> switch(expr){switch_case}
+switch_case-> case number: opt_stmts switch_case | case number: opt_stmts | default: opt_stmts
+loop_stmt -> do_stmt | while_stmt | for_stmt
+for_stmt -> for(init;condition;update)opt_stmt
+init -­­>  id assign_op expr init_a | є
+init_a -­­> ,id assign_op expr init_a | є 
+condition -­­> expr condition_a | є 
+condition_a -­­>, expr condition_a | є 
+update -­­> id assign_op expr init_a | є
+while_stmt -­> while (expr) opt_stmt
+do_stmt -> do opt_stmt while (expr)
+break_stmt -> break
+continue_stmt -> continue
+f_call_stmt -> id(arg_list)|id assign_op id(arg_list)
+arg_list -> arg , arg_list| arg
+arg -> id|num
+input_stmt -> scan(id)
+output_stmt -> print(arg_list_p)
+expr -­­>  exp expr_p | !expr 
+expr_p -­­>  rel_op exp expr_p |  є
+exp -­­>  term exp_p 
+exp_p -­­>  +term exp_p |­term exp_p | є 
+term -­­>  factor term_p
+term_p -­­>  * factor term_p | / factor term_p | є  
+factor -­­>  (exp) | id | number 
+assign_op -> "="
+rel_op -> "=="|"!="|">"|"<"|">="|"<="|
+digit -> [0-9]
+letter_ -> [a-zA-Z_]
+number -> {digit}+
+id -> letter_(letter_ | digit)*
+
+

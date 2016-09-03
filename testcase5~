@@ -1,0 +1,10 @@
+begin 
+while(a<b) do
+while(b<c) do
+d = a + b;
+e = a - b;
+if(a<b) then
+if(b<c) then
+d = a + c;
+a = d;
+end

@@ -1,0 +1,9 @@
+begin 
+if ((a -b ) > c ) 
+	then 
+	c = a * b;  
+while (a > b) 
+	do 
+	a = a + b; 
+c= a/b ;
+end

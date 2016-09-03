@@ -1,0 +1,6 @@
+Compilation Steps 
+	$ lex lexanalyser.lex
+	$ yacc test.y
+	$ gcc y.tab.c -ll -ly 
+	$ ./a.out [filename]
+

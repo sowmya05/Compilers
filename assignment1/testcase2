@@ -1,0 +1,7 @@
+begin
+while (a < b + c) do a = a - c; 
+c = b * c;
+a = 1;
+b = 2;
+c = a + b;
+end
